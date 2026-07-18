@@ -32,12 +32,12 @@ spacetime init --lang=csharp server-csharp
 spacetime publish --server local blackholio
 # 更新服务端代码
 spacetime publish --server local blackholio --delete-data
-# 生成unity客户端代码
-spacetime generate --lang csharp --out-dir ../client-unity/Assets/autogen
-# 调用say_hello函数
+# 调用SayHello函数
 spacetime call --server local blackholio say_hello
 # 查看日志
 spacetime logs --server local blackholio
+# 生成unity客户端代码
+spacetime generate --lang csharp --out-dir ../client-unity/Assets/autogen
 # 登录和退出
 spacetime login
 spacetime logout

@@ -104,3 +104,15 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+.vscode/
+server-csharp/spacetimedb/bin
+server-csharp/spacetimedb/obj
+client-unity/Temp
+client-unity/Logs
+client-unity/Library
+client-unity/ProjectSettings
+client-unity/Assets/autogen
+client-unity/Assets/Settings
+client-unity/Assets/TextMesh Pro
+client-unity/UserSettings
